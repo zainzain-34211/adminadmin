@@ -1,12 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ZAIN</title>
-</head>
-<body>
-
-    <h1>TEST</h1>
-    <p>My name is <strong>zain</strong></p>
-
-</body>
-</html>   
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <!-- Content Security Policy: this app loads code/styles ONLY from its own
+         origin, and talks ONLY to its own API. No inline scripts, no plugins,
+         no external resources of any kind. (connect-src also lists the local
+         dev API so `npm run dev` keeps working.) -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://api.admin.infinitumboxing.online http://localhost:3000; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+    />
+    <title>Infinitum Boxing — Admin</title>
+    <script type="module" crossorigin src="/assets/index-3VA969YN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BwZKZ7zP.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
