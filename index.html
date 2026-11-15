@@ -13,10 +13,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <!-- Content Security Policy: this app loads code/styles ONLY from its own
-         origin, and talks ONLY to its own API. No inline scripts, no plugins,
-         no external resources of any kind. (connect-src also lists the local
-         dev API so `npm run dev` keeps working.) -->
+    
     <meta
   http-equiv="Content-Security-Policy"
   content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://adminapi.infinitumboxing.online; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
